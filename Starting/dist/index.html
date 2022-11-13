@@ -5,10 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Firebase v9</title>
-    <script src="./bundle.js"></script>
+    
 </head>
 <body>
     <h1>firebase v9</h1>
+
+    <form class="add">
+        <label for="title">Not Başlık</label>
+        <input type="text" name="title"/>
+        <label for="info">Not Açıklama</label>
+        <input type="text" name="info"/>
+        <label for="state">Öncelik Durum</label>
+        <input type="text" name="state"/>
+        <button>Ekle</button>
+    </form>
+    <form class="delete">
+        <label for="if">Not ID</label>
+        <input type="text" name="id"/>
+        <button>Sil</button>
+    </form>
+
+
+    <h2>Firebase Auth</h2>
+
+    <form class="signup">
+        <label>Email</label>
+        <input type="email" name="email"/>
+        <label>Parola</label>
+        <input type="password" name="parola"/>
+        <button>Üye Ol</button>
+    </form>
+    <script src="./bundle.js"></script>
     
 </body>
 </html>
